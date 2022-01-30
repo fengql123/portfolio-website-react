@@ -1,0 +1,43 @@
+@import "../../global.scss";
+
+.portfolio {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: white;
+}
+
+h1{
+  color: $mainColor;
+  margin-bottom: 10%;
+}
+
+.slider {
+  width: 100%;
+  height: 30%;
+  background: $mainColor;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.single-img {
+  width: 10%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-img img {
+  width: 60%;
+  transition: width 0.5s linear 0s;
+}
+
+.single-img img:hover {
+  width: 100%;
+}
